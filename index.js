@@ -1,6 +1,8 @@
 const { Telegraf, Markup } = require('telegraf'); // -> Importo Telegraf - https://www.npmjs.com/package/telegraf
 const express = require('express');
 const expressApp = express();
+const dotenv = require('dotenv');
+dotenv.config();
 
 const BOT_TOKEN = process.env.BOT_TOKEN || '';
 const PORT = process.env.PORT || 3000;
