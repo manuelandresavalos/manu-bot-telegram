@@ -1,0 +1,27 @@
+{
+	"name": "manu-bot-telegram",
+	"version": "0.0.1",
+	"description": "Un bot que me va a ayudar a realizar tareas repetitivas por mi",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/manuelandresavalos/manu-bot-telegram.git"
+	},
+	"keywords": [
+		"Telegram",
+		"Telegraf",
+		"TelegramBot",
+		"Bot"
+	],
+	"author": "Manuel Avalos",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/manuelandresavalos/manu-bot-telegram/issues"
+	},
+	"homepage": "https://github.com/manuelandresavalos/manu-bot-telegram#readme",
+	"dependencies": {
+		"telegraf": "^3.6.7"
+	}
+}
