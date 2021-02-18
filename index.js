@@ -9,8 +9,8 @@ const URL = process.env.URL || 'https://manu-bot-telegram.herokuapp.com';
 // En el apartado de .env es donde se colocan las credenciales y variables de entorno.
 // Instancio el Telegraf Bot con el token de mi bot, este lo consigo desde la app de Telegram con el robot BotFather -> /mybots
 const bot = new Telegraf(BOT_TOKEN);
-bot.telegram.setWebhook(`${URL}/bot${API_TOKEN}`);
-expressApp.use(bot.webhookCallback(`/bot${API_TOKEN}`));
+bot.telegram.setWebhook(`${URL}/bot${BOT_TOKEN}`);
+expressApp.use(bot.webhookCallback(`/bot${BOT_TOKEN}`));
 
 /*--------------------------------------------------------------------------------------------------
 LOGICA DEL BOT AQUI
